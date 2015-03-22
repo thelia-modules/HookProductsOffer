@@ -3,7 +3,7 @@
     {loop name="current-sales" type="sale" limit="2"}
         <section id="product-sale-{$ID}">
             <div class="products-heading">
-                <h2>{$SALE_LABEL} <a href="{url path="/sale" sale=$ID}" class="btn-all">{intl l="+ View All"}</a></h2>
+                <h2>{$SALE_LABEL} <a href="{url path="/sale" sale=$ID}" class="btn-all">{intl l="+ View All" d="hookproductsoffer.fo.default"}</a></h2>
                 <div class="short-description" itemprop="description">{$CHAPO}</div>
             </div>
 
